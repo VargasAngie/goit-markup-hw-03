@@ -9,28 +9,30 @@
   --black: #212121;
   --text: #757575;
   --high-lighted: #2196f3;
+  --background: #e5e5e5;
 }
 
 body {
   font-family: "roboto", "sans-serif";
   color: var(--text);
-  background-color: var(--white);
+  background-color: var(--background);
 }
 
 .container {
   width: 1600px;
+  margin: 0 auto;
 }
 
 /* ............ */
 /* Encabezado */
 /* ............ */
-
-.header-section {
+.headline {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 24px 215px;
   border: 1px solid #ececec;
+  background-color: var(--white);
 }
 
 .logo {
@@ -96,6 +98,9 @@ body {
 /* ................. */
 /* Sección inicial */
 /* ................. */
+.principal {
+  background-color: var(--white);
+}
 
 .initial-section {
   background-color: #2f303a;
@@ -228,9 +233,9 @@ body {
 /* .................................... */
 /* Pie de página */
 /* .................................... */
-.footer-section {
+.ending {
   background-color: #2f303a;
-  padding: 60px 215px 47px;
+  padding: 60px 250px 47px;
 }
 
 .footer-text {
@@ -313,7 +318,7 @@ body {
 /* Seccion de proyectos */
 /* .................................... */
 .projects-section {
-  padding: 50px 200px 82px;
+  padding: 50px 100px 82px;
 }
 
 .projects-section-list {
