@@ -15,7 +15,7 @@
 body {
   font-family: "roboto", "sans-serif";
   color: var(--text);
-  background-color: var(--background);
+  background-color: var(--white);
 }
 
 .container {
@@ -31,8 +31,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 24px 215px;
-  border: 1px solid #ececec;
-  background-color: var(--white);
+  border-bottom: 1px solid #ececec;
 }
 
 .logo {
@@ -98,9 +97,6 @@ body {
 /* ................. */
 /* Sección inicial */
 /* ................. */
-.principal {
-  background-color: var(--white);
-}
 
 .initial-section {
   background-color: #2f303a;
@@ -178,10 +174,7 @@ body {
 .services-section-list {
   list-style: none;
   display: flex;
-}
-
-.services-section-list li:not(:last-child) {
-  margin-right: auto;
+  justify-content: space-between;
 }
 
 /* .................................... */
@@ -204,14 +197,11 @@ body {
 .team-section-list {
   list-style: none;
   display: flex;
+  justify-content: space-between;
 }
 
 .team-section-list li {
   background-color: var(--white);
-}
-
-.team-section-list li:not(:last-child) {
-  margin-right: auto;
 }
 
 .team-name {
@@ -332,7 +322,6 @@ body {
 
 .projects-section-list li {
   border: 1px solid #eeeeee;
-  /* flex-basis: calc((100%-60px)/3; */
 }
 
 .project-name {
