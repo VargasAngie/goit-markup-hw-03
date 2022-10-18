@@ -9,7 +9,6 @@
   --black: #212121;
   --text: #757575;
   --high-lighted: #2196f3;
-  --background: #e5e5e5;
 }
 
 body {
@@ -19,19 +18,23 @@ body {
 }
 
 .container {
-  width: 1600px;
+  width: 1200px;
   margin: 0 auto;
 }
 
 /* ............ */
 /* Encabezado */
 /* ............ */
+header {
+  background-color: var(--white);
+  border-bottom: 1px solid #ececec;
+}
+
 .headline {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 24px 215px;
-  border-bottom: 1px solid #ececec;
+  padding: 24px 15px;
 }
 
 .logo {
@@ -223,9 +226,12 @@ body {
 /* .................................... */
 /* Pie de página */
 /* .................................... */
-.ending {
+footer {
   background-color: #2f303a;
-  padding: 60px 250px 47px;
+}
+
+.ending {
+  padding: 60px 15px;
 }
 
 .footer-text {
