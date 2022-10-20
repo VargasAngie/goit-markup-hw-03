@@ -34,7 +34,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 24px 15px;
+  height: 80px;
 }
 
 .logo {
@@ -103,7 +103,7 @@ header {
 
 .initial-section {
   background-color: #2f303a;
-  padding: 200px 452px;
+  padding: 200px 0;
 }
 
 .initial-section-title {
@@ -135,34 +135,37 @@ header {
 /* Sección de valores corporativos */
 /* ................................. */
 .about-us-section {
-  padding: 94px 215px 0;
+  padding-top: 94px;
 }
 
-.about-us-titles li {
+.about-us-section ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.about-us-titles {
   color: var(--black);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
 }
 
-.about-us-section ul {
-  list-style: none;
-  display: flex;
+.about-us-text {
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .about-us-section li {
   width: 270px;
 }
 
-.about-us-section li:not(:last-child) {
-  margin-right: 30px;
-}
-
 /* ................................. */
 /* Sección de servicios */
 /* ................................. */
 .services-section {
-  padding: 94px 215px;
+  padding: 94px 0;
 }
 
 .services-section-title {
@@ -178,6 +181,7 @@ header {
   list-style: none;
   display: flex;
   justify-content: space-between;
+  padding: 0;
 }
 
 /* .................................... */
@@ -201,6 +205,7 @@ header {
   list-style: none;
   display: flex;
   justify-content: space-between;
+  padding: 0;
 }
 
 .team-section-list li {
@@ -231,7 +236,7 @@ footer {
 }
 
 .ending {
-  padding: 60px 15px;
+  padding: 60px 0;
 }
 
 .footer-text {
@@ -274,13 +279,14 @@ footer {
 /* Seccion de botones */
 /* .................................... */
 .buttons-section {
-  padding: 106px 215px 0;
+  padding-top: 106px;
 }
 
 .buttons-section-list {
   list-style: none;
   display: flex;
   justify-content: center;
+  padding: 0;
 }
 
 .buttons-section-list li:not(:last-child) {
@@ -314,7 +320,7 @@ footer {
 /* Seccion de proyectos */
 /* .................................... */
 .projects-section {
-  padding: 50px 215px 82px;
+  padding: 50px 0 82px;
 }
 
 .projects-section-list {
@@ -323,7 +329,8 @@ footer {
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
-  gap: 20px;
+  gap: 30px;
+  padding: 0;
 }
 
 .projects-section-list li {
